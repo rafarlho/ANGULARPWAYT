@@ -1,0 +1,9 @@
+https://www.youtube.com/watch?v=LRvZYCE3Qvw
+
+ng n <app-name>
+cd <app-name>
+ng add @angular/pwa
+ng build
+npm i -g http-server 
+// Cannot run with ng serve
+npx http-server -p 8080 -c-1 dist/<app-name>/browser  
